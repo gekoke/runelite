@@ -231,7 +231,7 @@ public class RuneLite
 				ClassPreloader.preload();
 			}, "Preloader").start();
 
-			final boolean developerMode = options.has("developer-mode") && RuneLiteProperties.getLauncherVersion() == null;
+			final boolean developerMode = options.has("developer-mode");
 
 			if (developerMode)
 			{
